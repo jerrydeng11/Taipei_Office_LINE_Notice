@@ -20,9 +20,8 @@
 命令行上創建新的存儲庫
 
 ```bash
-echo "# Taipei_Office_LINE_Notice" >> README.md
 git init
-git add README.md
+git add .
 git commit -m "first commit"
 git branch -M main
 git remote add origin git@github.com:jerrydeng11/Taipei_Office_LINE_Notice.git
