@@ -1,0 +1,6 @@
+# 爬蟲
+cd /home/jerry/桌面/web_crawler/code
+python3 /home/jerry/桌面/web_crawler/code/web_crawler.py
+
+# 台北辦公室 LINE 通知
+cd /home/jerry/桌面/LINE_Notify;python3 /home/jerry/桌面/LINE_Notify/LINE_Notify.py
