@@ -46,8 +46,8 @@ df2 = df[df.date<date].values
 for i in range(len(df2)):
     if df2[i][1] == False:
         print(df2[i][0], df2[i][2])
-        lineNotify("5Q6LYypI0LarQISvpSitg2daxYuH6CKm21NYrZkCfuU", df2[i][2])  # 測試用令牌
-        # lineNotify("POuifz2jxPDszLZLpy6VThR8o40Yf0xTw6MlkPU9hp5", df2[i][2])  # 正是用令牌
+#         lineNotify("5Q6LYypI0LarQISvpSitg2daxYuH6CKm21NYrZkCfuU", df2[i][2])  # 測試用令牌
+        lineNotify("POuifz2jxPDszLZLpy6VThR8o40Yf0xTw6MlkPU9hp5", df2[i][2])  # 正是用令牌
         
 
 # (date < 現在時間) 符合條件，則把 bool 改成 True
