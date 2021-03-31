@@ -6,7 +6,7 @@ import time
 import requests
 
 # 重要變數
-path = r'D:\Task_Scheduler\Taipei_Office_LINE_Notice\ipynb\LINE Notify.txt'
+path = r'D:\OneDrive\chenweivr66\Task_Scheduler\Taipei_Office_LINE_Notice\ipynb\LINE Notify.txt'
 
 # 函數
 def lineNotify(token, msg):
